@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    background: rgb(237,160,4);
+    background: linear-gradient(0deg, rgba(237,160,4,0.8575805322128851) 0%, rgb(188, 188, 245) 100%);
+}
+h1 {
+    font-family: Verdana;
+    color: rgb(46, 46, 206);
+
+}
+img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-style: outset;
+    border-color: rgb(138, 67, 2);
+}
+#imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: inset;
+    margin-top: 20px;
+    border-color: rgb(138, 67, 2);
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #e2b879;
+}
